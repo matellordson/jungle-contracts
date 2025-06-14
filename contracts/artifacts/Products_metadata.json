@@ -1,0 +1,87 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "addProduct",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "product",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "media",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "title",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "description",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "price",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/jungle.sol": "Products"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/jungle.sol": {
+			"keccak256": "0xea7fa44c785785706304e28ff1a04feb5e3e15260f415e312fc35acdb14027eb",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6088e9783894966424e03e6fd9eed97993eb9d57a2ad79ba3dcb46b9c5b91c82",
+				"dweb:/ipfs/QmeDRAz7J3BdE5gPmGjXyNP2fPSYSPttLLtNSKqEn7ZGit"
+			]
+		}
+	},
+	"version": 1
+}

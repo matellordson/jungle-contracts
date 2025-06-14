@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/jungle.sol": "addProduct"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/jungle.sol": {
+			"keccak256": "0x8adac037a3f7a9d427e6b6897f03e459a423a489c38f499c471f0c44a39ea121",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6a809c1a2aedf902c505afb2ed4370a74f9bea606e155855f6fed3b83e84d71a",
+				"dweb:/ipfs/QmVQusaGEmQTSLDvLM9N3ZJLWFC56TiHNggLVckR3t2cH1"
+			]
+		}
+	},
+	"version": 1
+}
