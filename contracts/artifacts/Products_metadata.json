@@ -6,10 +6,76 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_publisher",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "_media",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_title",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_description",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_price",
+						"type": "string"
+					}
+				],
 				"name": "addProduct",
 				"outputs": [],
 				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getProduct",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "address",
+								"name": "publisher",
+								"type": "address"
+							},
+							{
+								"internalType": "string",
+								"name": "media",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "title",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "description",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "price",
+								"type": "string"
+							}
+						],
+						"internalType": "struct Products.Product[]",
+						"name": "",
+						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -22,6 +88,11 @@
 				],
 				"name": "product",
 				"outputs": [
+					{
+						"internalType": "address",
+						"name": "publisher",
+						"type": "address"
+					},
 					{
 						"internalType": "string",
 						"name": "media",
@@ -75,11 +146,11 @@
 	},
 	"sources": {
 		"contracts/jungle.sol": {
-			"keccak256": "0xea7fa44c785785706304e28ff1a04feb5e3e15260f415e312fc35acdb14027eb",
+			"keccak256": "0xc35a5d515bbc3023a0ecfe701bdda813322da07988b7142e0fd7bca9b63bce92",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://6088e9783894966424e03e6fd9eed97993eb9d57a2ad79ba3dcb46b9c5b91c82",
-				"dweb:/ipfs/QmeDRAz7J3BdE5gPmGjXyNP2fPSYSPttLLtNSKqEn7ZGit"
+				"bzz-raw://0c5cfc1a17c466ebcc0f9e2b21d01f5cf388dfa5aadae1c573c918699d006915",
+				"dweb:/ipfs/QmbFNAjaXTYxwXYeyuwL8o7yQHRUsNtAcTJZrR6mxWCQSg"
 			]
 		}
 	},
